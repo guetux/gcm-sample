@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Python GCM Demo server</title>
+    </title>
+    <body>
+        <h1>{{ devices }} registered devices</h1>
+
+        {% with messages = get_flashed_messages() %}
+          {% if messages %}
+            {% for message in messages %}
+              <h3>{{ message }}</h3>
+            {% endfor %}
+          {% endif %}
+        {% endwith %}
+
+        {% if devices %}
+        <form action="/sendAll/" method="post">
+            <input type="text" placeholder="Your message" name="msg" /><br>
+            <input type="submit" value="Send" />
+        </form>
+        {% endif %}
+    </body>
+</html>
+

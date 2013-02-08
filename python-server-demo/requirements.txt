@@ -1,0 +1,3 @@
+Flask
+python-gcm
+redis
