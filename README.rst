@@ -11,7 +11,8 @@ Thanks to gradle, running the example is about 200 times more fun at least!
 Usage
 -----
 
-**IMPORTANT**: You need to use gradle 1.2 in order for this project to work!
+**IMPORTANT**: You need to use gradle 1.2 and android sdk r21 in order for this
+project to work!
 
 To start the server, put your simple api key into
 ``gcm-demo-server/src/main/resources/api.key`` and do:
