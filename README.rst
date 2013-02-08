@@ -5,7 +5,7 @@ This is a simple port of the GCM example project from ant to gradle building.
 
 Thanks to gradle, running the example is about 200 times more fun at least!
 
-`Check out more about GCM and the sample project at here
+`Check out more about GCM and the sample project here
 <http://developer.android.com/google/gcm/demo.html>`_
 
 Usage
