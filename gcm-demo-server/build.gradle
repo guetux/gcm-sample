@@ -1,0 +1,15 @@
+apply plugin: 'war'
+apply plugin: 'jetty'
+
+sourceCompatibility = '1.6'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile project(':gcm-server')
+    providedCompile 'javax.servlet:servlet-api:2.5'
+    providedCompile 'org.mockito:mockito-all:1.9.5'
+    providedCompile 'junit:junit:4.11'
+}

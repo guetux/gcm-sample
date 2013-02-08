@@ -1,0 +1,12 @@
+subprojects {
+    apply plugin: 'eclipse'
+
+    version = '1.0'
+
+}
+
+allprojects {
+    tasks.withType(Compile) {
+        options.compilerArgs << "-Xlint:-options"
+    }
+}

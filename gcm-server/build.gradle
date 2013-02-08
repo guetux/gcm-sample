@@ -1,0 +1,13 @@
+apply plugin: 'java'
+
+sourceCompatibility = '1.6'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'com.googlecode.json-simple:json-simple:1.1.1'
+    testCompile 'org.mockito:mockito-all:1.9.5'
+    testCompile 'junit:junit:4.11'
+}
